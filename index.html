@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>aetherlang</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        textarea {
+            height: 14em;
+            width: 100%;
+            resize: vertical;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>aetherlang</h1>
+    <textarea id="elements" title="元素" placeholder="用于组成符号的元素">
+空
+🤤
+🤗
+🥵</textarea>
+    <textarea id="input" title="输入" placeholder="要处理的源代码"></textarea>
+    <textarea id="define" title="输出" placeholder="生成的源代码" readonly></textarea>
+    <textarea id="output" title="输出" placeholder="生成的源代码" readonly></textarea>
+    <button id="run" type="button">生成</button>
+    <script src='script.js'></script>
+</body>
+
+</html>
